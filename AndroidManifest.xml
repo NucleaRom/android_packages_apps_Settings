@@ -3333,5 +3333,20 @@
             <meta-data android:name="com.android.settings.summary"
                        android:resource="@string/nr_settings_activity_summary"/>
         </activity>
+
+        <!-- Gesture Anywhere -->
+        <activity android:name="com.nr.settings.gestureanywhere.GestureAnywhereBuilderActivity"
+                  android:parentActivityName="com.nr.settings.gestureanywhere.GestureAnywhereSettings"
+                  android:exported="true">
+        </activity>
+        <activity
+            android:name="com.nr.settings.gestureanywhere.GestureAnywhereCreateGestureActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter> 
+        </activity>
+        <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>

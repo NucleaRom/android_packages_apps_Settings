@@ -193,5 +193,5 @@ public class Settings extends SettingsActivity {
 
     // NucleaRom settings
     public static class NrSettingsActivity extends SettingsActivity {}
-
+    public static class GestureAnywhereBuilderActivity extends SettingsActivity { /* empty */ }
 }
