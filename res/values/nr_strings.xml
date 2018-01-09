@@ -45,4 +45,9 @@
     <string name="toast_insult_14">This is why nobody likes you...</string>
     <string name="toast_insult_15">Are you even trying?!</string>
 
+    <!-- Reset battery stats -->
+    <string name="ok">Okay</string>
+    <string name="menu_stats_reset">Reset stats</string>
+    <string name="reset_stats_msg">Battery history stats are going to be reset</string>
+
 </resources>
