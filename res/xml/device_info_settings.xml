@@ -26,12 +26,6 @@
                     android:targetClass="@string/additional_system_update_menu" />
         </Preference>
 
-        <!-- LineageOS updates -->
-        <org.lineageos.internal.preference.deviceinfo.LineageUpdatesPreference
-                android:key="lineage_updates"
-                lineage:requiresOwner="true"
-                lineage:requiresPackage="org.lineageos.updater" />
-
         <!-- Device status - launches activity -->
         <Preference android:key="status_info"
                 android:title="@string/device_status"
@@ -67,10 +61,6 @@
         <Preference android:key="device_feedback"
                 android:title="@string/device_feedback" />
 
-        <!-- Contributors cloud -->
-        <org.lineageos.internal.lineageparts.LineagePartsPreference
-                android:key="contributors" />
-
         <!-- Device hardware model -->
         <Preference
                 android:key="device_model"
@@ -82,9 +72,12 @@
                 android:title="@string/firmware_version"
                 android:summary="@string/summary_placeholder"/>
 
-        <!-- LineageOS version -->
-        <org.lineageos.internal.preference.deviceinfo.LineageVersionPreference
-                android:key="lineage_version" />
+        <!-- NucleaRom version -->
+        <Preference 
+                android:key="mod_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/nr_mod_version"
+                android:summary="@string/nr_version_default"/>
 
         <!-- LineageOS API version -->
         <org.lineageos.internal.preference.deviceinfo.LineageAPIVersionPreference
