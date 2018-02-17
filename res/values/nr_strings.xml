@@ -20,4 +20,8 @@
     <string name="nr_mod_version">NucleaRom version</string>
     <string name="nr_version_default">Unknown</string>
 
+	<!-- NucleaRom settings -->
+    <string name="nr_settings_activity">Nuclear settings</string>
+    <string name="nr_settings_activity_summary">Nuclear POWERRR</string>
+
 </resources>
