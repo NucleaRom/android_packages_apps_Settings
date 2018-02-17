@@ -18,4 +18,8 @@
 
     <string name="nr_version">NucleaRom-Version</string>
 
+	<!-- NucleaRom settings -->
+    <string name="nr_settings_activity">Nuclear settings</string>
+    <string name="nr_settings_activity_summary">Nuclear POWERRR</string>
+
 </resources>
