@@ -24,4 +24,7 @@
     <string name="nr_settings_activity">Nuclear settings</string>
     <string name="nr_settings_activity_summary">Nuclear POWERRR</string>
 
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
+
 </resources>
