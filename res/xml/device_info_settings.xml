@@ -26,6 +26,11 @@
                     android:targetClass="@string/additional_system_update_menu" />
         </Preference>
 
+        <!-- NucleaRom banner -->
+        <PreferenceScreen android:key="nr_banner"
+                android:enabled="false"
+                android:layout="@layout/nr_about_banner" />
+
         <!-- Device status - launches activity -->
         <Preference android:key="status_info"
                 android:title="@string/device_status"
