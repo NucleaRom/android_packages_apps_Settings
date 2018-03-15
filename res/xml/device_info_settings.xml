@@ -84,6 +84,11 @@
                 android:title="@string/nr_mod_version"
                 android:summary="@string/nr_version_default"/>
 
+         <!-- Changelog -->
+        <PreferenceScreen android:key="changelog"
+                android:title="@string/changelog_NucleaRom_title"
+                android:fragment="com.android.settings.nr.Changelog" />
+
         <!-- LineageOS API version -->
         <org.lineageos.internal.preference.deviceinfo.LineageAPIVersionPreference
                 android:key="lineage_api_level" />
